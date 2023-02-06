@@ -2,7 +2,7 @@ function isMobile() {
     return navigator.userAgent.toLowerCase().match(/mobile/i);
 }
 
-window.addEventListener("load", () => {
+/* window.addEventListener("load", () => {
     if (!isMobile()) {
         console.log("is mobile")
         var elements = document.getElementsByClassName("worker-app-link");
@@ -16,4 +16,4 @@ window.addEventListener("load", () => {
             });
         }
     }
-})
+}) */
