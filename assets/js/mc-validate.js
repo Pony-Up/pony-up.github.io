@@ -258,7 +258,7 @@
 			// On successful form submission, display a success message and reset the form
 			if (resp.result == "success") {
 				$('#mce-' + resp.result + '-response').show();
-				$('#mce-' + resp.result + '-response').html(resp.msg);
+				$('#mce-' + resp.result + '-response').html("Your request has been received"/* resp.msg */);
 				$('#mc-embedded-subscribe-form').each(function () {
 					this.reset();
 				});
