@@ -922,9 +922,9 @@
                       </div>
                     </div>
                     <div id="mce-responses" class="clear foot">
-                      <div class="response" id="mce-error-response" style="display:none; background-color: #f2f2f2;">
+                      <div class="response" id="mce-error-response" style="display:none;">
                       </div>
-                      <div class="response" id="mce-success-response" style="display:none; background-color: #f2f2f2;">
+                      <div class="response" id="mce-success-response" style="display:none;">
                       </div>
                     </div>
                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
@@ -934,8 +934,14 @@
 
                       <div class="col-12">
                         <div class="form-group mb--0">
-                          <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe"
-                            class="button btn-register">
+                          <div class="btn-box" style="cursor:pointer;">
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                              style="display: none;">
+                            <a class="btn-theme text-dark" id="submit-button-display">Submit</a>
+                            </input>
+
+                          </div>
+
                         </div>
                       </div>
                     </div>
@@ -949,6 +955,11 @@
       </div>
     </section>
     <script type='text/javascript' src='./assets/js/mc-validate.js'></script>
+    <script type="text/javascript">
+      document.getElementById("submit-button-display").onclick = () => {
+        document.getElementById("mc-embedded-subscribe").click();
+      }
+    </script>
     <script
       type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'MMERGE3'; ftypes[3] = 'phone';; fnames[4] = 'MMERGE4'; ftypes[4] = 'zip'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
     <!--End mc_embed_signup-->
