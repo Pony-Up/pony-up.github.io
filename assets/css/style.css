@@ -4191,7 +4191,7 @@ table p {
   background: #fff;
   border: 1px solid #e5e5e5;
   border-width: 1px 0 1px 1px;
-  color: #323232;
+  color: #844232;
   margin: 0 0 70px;
   text-align: left;
   width: 100%;
@@ -4250,7 +4250,7 @@ table p {
 }
 
 .shopping-cart-form table .product-remove .remove {
-  color: #323232;
+  color: #844232;
   font-size: 20px;
   font-weight: 700;
   line-height: 20px;
@@ -4272,7 +4272,7 @@ table p {
 }
 
 .shopping-cart-form table .product-name .title {
-  color: #323232;
+  color: #844232;
   font-weight: 600;
 }
 
@@ -4281,7 +4281,7 @@ table p {
 }
 
 .shopping-cart-form table .product-price .price {
-  color: #323232;
+  color: #844232;
   font-size: 15px;
   font-weight: 600;
 }
@@ -4295,7 +4295,7 @@ table p {
   background-color: transparent;
   border: 1px solid #e5e5e5;
   border-radius: 0;
-  color: #323232;
+  color: #844232;
   font-weight: 400;
   width: 75px;
   height: 50px;
@@ -4351,7 +4351,7 @@ table p {
   border: 2px solid #e5e5e5;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #323232;
+  color: #844232;
   display: inline-block;
   font-size: 1.077em;
   font-weight: 600;
@@ -4405,7 +4405,7 @@ table p {
   border: 2px solid #e5e5e5;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #323232;
+  color: #844232;
   display: inline-block;
   height: 50px;
   padding: 0 35px;
@@ -4505,7 +4505,7 @@ table p {
 
 .cart-totals-wrap table tbody .shipping-list li label {
   cursor: pointer;
-  color: #323232;
+  color: #844232;
   font-size: 14px;
   font-weight: 600;
 }
@@ -4597,7 +4597,7 @@ table p {
   background: #fff;
   border: 1px solid #e5e5e5;
   border-width: 1px 0 1px 1px;
-  color: #323232;
+  color: #844232;
   margin: 0 0 70px;
   text-align: left;
   width: 100%;
@@ -4652,7 +4652,7 @@ table p {
 }
 
 .shopping-wishlist-form table .product-remove .remove {
-  color: #323232;
+  color: #844232;
   font-size: 20px;
   font-weight: 700;
   line-height: 20px;
@@ -4670,7 +4670,7 @@ table p {
 }
 
 .shopping-wishlist-form table .product-name .title {
-  color: #323232;
+  color: #844232;
   font-weight: 600;
 }
 
@@ -4679,7 +4679,7 @@ table p {
 }
 
 .shopping-wishlist-form table .product-price .price {
-  color: #323232;
+  color: #844232;
   font-size: 15px;
   font-weight: 600;
 }
@@ -4695,7 +4695,7 @@ table p {
   border: 2px solid #e5e5e5;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #323232;
+  color: #844232;
   cursor: pointer;
   display: inline-block;
   font-size: 15px;
@@ -5693,8 +5693,8 @@ table p {
   text-align: center;
   font-size: 14px;
   padding: 18px 19px 16px;
-  background-color: #232324;
-  border-color: #232324;
+  background-color: #284424;
+  border-color: #284424;
   color: #fff;
   text-transform: uppercase;
   font-weight: 600;
